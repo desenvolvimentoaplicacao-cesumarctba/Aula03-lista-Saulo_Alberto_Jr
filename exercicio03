@@ -1,0 +1,6 @@
+<?php
+while(true){
+$fahren = readline("Qual a temperatura em Fahrenheit? ");
+echo " A temperatura em Fahrenheit é ".number_format(($fahren-32)*5/9,2)." F e a temperatura em Celsius é ".$fahren ." C".PHP_EOL;
+}
+?>
