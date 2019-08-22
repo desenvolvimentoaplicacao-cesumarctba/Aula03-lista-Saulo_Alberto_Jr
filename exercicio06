@@ -1,0 +1,27 @@
+<?php
+$peso=readline("Qual seu peso?");
+$altura=readline("Qual sua altura?");
+$imc = $peso/($altura*$altura);
+switch($imc){
+  case $imc<18.5:
+  echo "Abaixo do peso";
+  break;
+  case $imc >=18.5 && $imc <=24.9:
+  echo "Peso normal";
+  break;
+  case $imc >=25 && $imc <= 29.9:
+  echo "SobrePeso";
+  break;
+  case $imc >=30 && $imc<=34.9:
+  echo "Obesidade grau 1";
+  break;
+  case $imc >=35 && $imc <= 39.9:
+  echo "Obesidade grau 2";
+  case $imc >=40:
+  echo "Obesidade grau 3";
+  break;
+  default :
+  echo "Peso invalido";
+  break;
+};
+?>
