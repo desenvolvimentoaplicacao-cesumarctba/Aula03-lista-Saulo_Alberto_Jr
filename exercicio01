@@ -1,0 +1,11 @@
+
+<?php
+$tempo =readline ("Qual o tempo gasto?");
+$velM=readline("Qual a velocidade média? ");
+$distancia = $tempo*$velM;
+$litros =$distancia/12;
+echo "A Velocidade média é $velM km/h," .PHP_EOL."
+  o Tempo Gasto foi de $tempo h,".PHP_EOL."
+  a quantidade de litros gasta foi  " .number_format($litros,2)." L" .PHP_EOL;
+
+?>
