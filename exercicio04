@@ -1,0 +1,7 @@
+<?php
+while(true){
+$celsius=readline("Insira temperatura em Celsius");
+echo PHP_EOL;
+echo "Sua temperatura em Kelvin é ".($celsius+273.15) ."K".PHP_EOL ;
+}
+?>
