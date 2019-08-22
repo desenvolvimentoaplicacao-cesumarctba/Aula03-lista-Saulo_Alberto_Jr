@@ -1,0 +1,6 @@
+<?php
+while(true){
+$fahren=readline("Insira temperatura em Fahrenheit");
+echo "Sua temperatura em Kelvin é ".number_format((((($fahren-32)*5)/9)+273.15),2) ."K".PHP_EOL ;
+}
+?>
